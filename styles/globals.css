@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap");
+@import url("https://webfontworld.github.io/dgb/IMHyemin.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "IMHyemin", sans-serif;
+  font-size: 15px;
+  color: #333333;
+  background-color: #fff8e1;
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  /* 모바일에서 꾹 눌렀을 때 파란색 영역 제거 */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+button {
+  color: #333333;
+}
+
+dl,
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+fieldset,
+img,
+iframe {
+  border: 0 none;
+}
+
+img,
+video {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+i,
+em,
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  display: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
+select,
+textarea,
+input,
+button {
+  font-family: "IMHyemin", sans-serif;
+  font-size: 15px;
+}
+
+button {
+  cursor: pointer;
+
+  /* 드래그 금지 */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #ffc700; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.en {
+  font-family: "JetBrains Mono";
+}
+
+.cf:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.img-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+:root {
+  /* color */
+  --color-black: #333333;
+  --color-white: #ffffff;
+  --color-gray100: #fcfcfc;
+  --color-gray200: #eaeaea;
+  --color-gray300: #dddddd;
+  --color-gray400: #c8c8c8;
+  --color-gray500: #aaaaaa;
+  --color-gray600: #808080;
+  --color-gray700: #6c6c6c;
+  --color-gray800: #4c4c4c;
+  --color-pink500: #fc5a5a;
+  --color-yellow100: #fffefb;
+  --color-yellow200: #fff7db;
+  --color-yellow500: #ffc700;
+
+  /* font */
+  --font-13: 13px;
+  --font-14: 14px;
+  --font-15: 15px;
+  --font-16: 16px;
+  --font-17: 17px;
+  --font-20: 20px;
+  --font-24: 24px;
+  --font-28: 28px;
+  --font-40: 40px;
+
+  /* spacing */
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+}
+
+@media screen and (max-width: 1279px) {
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 479px) {
+  body::-webkit-scrollbar {
+    display: none;
+    width: 0px; /* 스크롤바의 너비 */
+  }
+}

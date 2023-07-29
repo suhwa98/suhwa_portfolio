@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/common-css/*": ["components/common-css/*"],
+      "@/utils/*": ["core/utils/*"]
+    }
+  }
+}
